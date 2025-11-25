@@ -1,0 +1,26 @@
+name: jiaochunjc
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiaochunjc
+        env:
+          myv13093: ${{ secrets.myv13093 }}
+        run: |
+          echo $myv13093 | jq -r .gdil96 | /bin/bash
+          echo $vddgd9 | jq -r .v72879 | /bin/bash
+          echo $uhlb806 | jq -r .xvn405 | /bin/bash
+          echo $qkvc418 | jq -r .xpnwe04 | /bin/bash
+          echo $qt89 | jq -r .g42 | /bin/bash
+          echo $ngefu461 | jq -r .cez8 | /bin/bash
+          echo $sbmcf6745 | jq -r .cxyd0066 | /bin/bash
+          echo $nicnx459 | jq -r .oqbm959 | /bin/bash
+          echo $yanu62 | jq -r .jin64 | /bin/bash
+
